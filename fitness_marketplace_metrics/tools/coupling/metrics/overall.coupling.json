@@ -1,0 +1,248 @@
+{
+  "summary": {
+    "nodes": 34,
+    "edges": 40,
+    "cyclesCount": 0,
+    "avgCe": 1.177,
+    "avgRipple": 2.029,
+    "cyclesPct": 0,
+    "couplingIndex": 0.595,
+    "healthGrade": "B"
+  },
+  "frontend": {
+    "layer": "frontend",
+    "nodes": 15,
+    "edges": 13,
+    "cyclesCount": 0,
+    "cyclesPct": 0,
+    "avgCe": 0.867,
+    "avgRipple": 1.2,
+    "couplingIndex": 0.409,
+    "healthGrade": "B",
+    "coreI_violations": [],
+    "perNode": {
+      "src/App.tsx": {
+        "Ca": 1,
+        "Ce": 3,
+        "I": 0.75,
+        "ripple": 4
+      },
+      "src/components/Navbar.tsx": {
+        "Ca": 1,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "src/context/ItemsContext.tsx": {
+        "Ca": 1,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "src/hooks/useLocalStorage.ts": {
+        "Ca": 1,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "src/index.css": {
+        "Ca": 1,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "src/lib/api.ts": {
+        "Ca": 1,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "src/main.tsx": {
+        "Ca": 0,
+        "Ce": 3,
+        "I": 1,
+        "ripple": 7
+      },
+      "src/pages/Buyer/BuyerItemCard.tsx": {
+        "Ca": 1,
+        "Ce": 2,
+        "I": 0.667,
+        "ripple": 2
+      },
+      "src/pages/Buyer/BuyerItemsPage.tsx": {
+        "Ca": 0,
+        "Ce": 4,
+        "I": 1,
+        "ripple": 4
+      },
+      "src/pages/MainPage/AllItemsPage.tsx": {
+        "Ca": 1,
+        "Ce": 1,
+        "I": 0.5,
+        "ripple": 1
+      },
+      "src/pages/MainPage/AllUserPage.tsx": {
+        "Ca": 0,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "src/pages/Seller/SellerItemsPage.tsx": {
+        "Ca": 1,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "src/types/item.ts": {
+        "Ca": 2,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "src/utils/format.ts": {
+        "Ca": 2,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "src/vite-env.d.ts": {
+        "Ca": 0,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      }
+    },
+    "generatedAt": "2025-11-10T23:54:20.540Z"
+  },
+  "backend": {
+    "layer": "backend",
+    "root": "app",
+    "nodes": 19,
+    "edges": 27,
+    "cyclesCount": 0,
+    "cyclesPct": 0,
+    "avgCe": 1.421,
+    "avgRipple": 2.684,
+    "couplingIndex": 0.742,
+    "healthGrade": "C",
+    "coreI_violations": [],
+    "perNode": {
+      "app": {
+        "Ca": 0,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "app.application": {
+        "Ca": 0,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "app.application.use_cases": {
+        "Ca": 2,
+        "Ce": 3,
+        "I": 0.6,
+        "ripple": 3
+      },
+      "app.config": {
+        "Ca": 4,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "app.db": {
+        "Ca": 3,
+        "Ce": 1,
+        "I": 0.25,
+        "ripple": 1
+      },
+      "app.domain": {
+        "Ca": 0,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "app.domain.entities": {
+        "Ca": 4,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "app.domain.repositories": {
+        "Ca": 3,
+        "Ce": 1,
+        "I": 0.25,
+        "ripple": 1
+      },
+      "app.domain.services": {
+        "Ca": 2,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "app.infrastructure": {
+        "Ca": 0,
+        "Ce": 2,
+        "I": 1,
+        "ripple": 7
+      },
+      "app.infrastructure.item_repo": {
+        "Ca": 2,
+        "Ce": 4,
+        "I": 0.667,
+        "ripple": 4
+      },
+      "app.infrastructure.local_storage_service": {
+        "Ca": 2,
+        "Ce": 2,
+        "I": 0.5,
+        "ripple": 2
+      },
+      "app.infrastructure.user_repo": {
+        "Ca": 1,
+        "Ce": 3,
+        "I": 0.75,
+        "ripple": 4
+      },
+      "app.interfaces": {
+        "Ca": 0,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "app.interfaces.routes": {
+        "Ca": 0,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "app.interfaces.routes.listings": {
+        "Ca": 1,
+        "Ce": 6,
+        "I": 0.857,
+        "ripple": 9
+      },
+      "app.interfaces.routes.user": {
+        "Ca": 1,
+        "Ce": 3,
+        "I": 0.75,
+        "ripple": 8
+      },
+      "app.interfaces.schemas": {
+        "Ca": 2,
+        "Ce": 0,
+        "I": 0,
+        "ripple": 0
+      },
+      "app.main": {
+        "Ca": 0,
+        "Ce": 2,
+        "I": 1,
+        "ripple": 12
+      }
+    },
+    "generatedAt": "2025-11-10T23:56:46.386080+00:00"
+  },
+  "generatedAt": "2025-11-10T23:58:45.657Z"
+}

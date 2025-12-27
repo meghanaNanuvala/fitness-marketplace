@@ -1,0 +1,189 @@
+{
+  "layer": "frontend",
+  "nodes": 29,
+  "edges": 33,
+  "cyclesCount": 0,
+  "cyclesPct": 0,
+  "avgCe": 1.138,
+  "avgRipple": 1.828,
+  "couplingIndex": 0.562,
+  "healthGrade": "B",
+  "coreI_violations": [],
+  "perNode": {
+    "src/App.tsx": {
+      "Ca": 1,
+      "Ce": 14,
+      "I": 0.933,
+      "ripple": 17
+    },
+    "src/assets/images/image1.png": {
+      "Ca": 2,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/assets/images/image2.jpg": {
+      "Ca": 1,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/components/AdminNavbar.tsx": {
+      "Ca": 1,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/components/ForgotPassword/ForgotPassword.tsx": {
+      "Ca": 1,
+      "Ce": 1,
+      "I": 0.5,
+      "ripple": 1
+    },
+    "src/components/Login/Login.tsx": {
+      "Ca": 1,
+      "Ce": 1,
+      "I": 0.5,
+      "ripple": 1
+    },
+    "src/components/Navbar.tsx": {
+      "Ca": 1,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/components/Register/Register.tsx": {
+      "Ca": 1,
+      "Ce": 1,
+      "I": 0.5,
+      "ripple": 1
+    },
+    "src/context/ItemsContext.tsx": {
+      "Ca": 1,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/custom.d.ts": {
+      "Ca": 0,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/hooks/useLocalStorage.ts": {
+      "Ca": 1,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/index.css": {
+      "Ca": 1,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/lib/api.ts": {
+      "Ca": 7,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/main.tsx": {
+      "Ca": 0,
+      "Ce": 3,
+      "I": 1,
+      "ripple": 20
+    },
+    "src/pages/Admin/AdminPage.tsx": {
+      "Ca": 1,
+      "Ce": 1,
+      "I": 0.5,
+      "ripple": 1
+    },
+    "src/pages/Admin/AdminProfilePage.tsx": {
+      "Ca": 1,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/pages/Buyer/BuyerItemCard.tsx": {
+      "Ca": 1,
+      "Ce": 2,
+      "I": 0.667,
+      "ripple": 2
+    },
+    "src/pages/Buyer/BuyerItemsPage.tsx": {
+      "Ca": 0,
+      "Ce": 4,
+      "I": 1,
+      "ripple": 4
+    },
+    "src/pages/CheckoutPage.tsx": {
+      "Ca": 1,
+      "Ce": 1,
+      "I": 0.5,
+      "ripple": 1
+    },
+    "src/pages/MainPage/AllItemsPage.tsx": {
+      "Ca": 1,
+      "Ce": 1,
+      "I": 0.5,
+      "ripple": 1
+    },
+    "src/pages/MainPage/AllUserPage.tsx": {
+      "Ca": 0,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/pages/MainPage/CartPage.tsx": {
+      "Ca": 1,
+      "Ce": 1,
+      "I": 0.5,
+      "ripple": 1
+    },
+    "src/pages/MainPage/ItemDetailsPage.tsx": {
+      "Ca": 1,
+      "Ce": 1,
+      "I": 0.5,
+      "ripple": 1
+    },
+    "src/pages/MainPage/ProfilePage.tsx": {
+      "Ca": 1,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/pages/SearchItems.tsx": {
+      "Ca": 1,
+      "Ce": 1,
+      "I": 0.5,
+      "ripple": 1
+    },
+    "src/pages/Seller/SellerItemsPage.tsx": {
+      "Ca": 1,
+      "Ce": 1,
+      "I": 0.5,
+      "ripple": 1
+    },
+    "src/types/item.ts": {
+      "Ca": 2,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/utils/format.ts": {
+      "Ca": 2,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    },
+    "src/vite-env.d.ts": {
+      "Ca": 0,
+      "Ce": 0,
+      "I": 0,
+      "ripple": 0
+    }
+  },
+  "generatedAt": "2025-12-06T19:43:46.261Z"
+}

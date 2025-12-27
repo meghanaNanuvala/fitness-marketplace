@@ -1,0 +1,236 @@
+{
+  "layer": "backend",
+  "root": "app",
+  "modules": 37,
+  "edges": 82,
+  "cyclesCount": 0,
+  "cyclesPct": 0.0,
+  "globalInstability": 0.483,
+  "healthGrade": "B",
+  "coreI_violations": [],
+  "perNode": {
+    "app": {
+      "Ca": 0,
+      "Ce": 0,
+      "I": 0.0,
+      "ripple": 0
+    },
+    "app.application": {
+      "Ca": 0,
+      "Ce": 0,
+      "I": 0.0,
+      "ripple": 0
+    },
+    "app.application.cart": {
+      "Ca": 1,
+      "Ce": 3,
+      "I": 0.75,
+      "ripple": 6
+    },
+    "app.application.items": {
+      "Ca": 1,
+      "Ce": 3,
+      "I": 0.75,
+      "ripple": 3
+    },
+    "app.application.purchases": {
+      "Ca": 1,
+      "Ce": 2,
+      "I": 0.667,
+      "ripple": 2
+    },
+    "app.application.reviews": {
+      "Ca": 1,
+      "Ce": 2,
+      "I": 0.667,
+      "ripple": 2
+    },
+    "app.application.users": {
+      "Ca": 1,
+      "Ce": 2,
+      "I": 0.667,
+      "ripple": 2
+    },
+    "app.config": {
+      "Ca": 6,
+      "Ce": 0,
+      "I": 0.0,
+      "ripple": 0
+    },
+    "app.db": {
+      "Ca": 1,
+      "Ce": 1,
+      "I": 0.5,
+      "ripple": 1
+    },
+    "app.domain": {
+      "Ca": 0,
+      "Ce": 0,
+      "I": 0.0,
+      "ripple": 0
+    },
+    "app.domain.entities": {
+      "Ca": 15,
+      "Ce": 0,
+      "I": 0.0,
+      "ripple": 0
+    },
+    "app.domain.repositories": {
+      "Ca": 13,
+      "Ce": 1,
+      "I": 0.071,
+      "ripple": 1
+    },
+    "app.domain.results": {
+      "Ca": 0,
+      "Ce": 0,
+      "I": 0.0,
+      "ripple": 0
+    },
+    "app.domain.services": {
+      "Ca": 3,
+      "Ce": 0,
+      "I": 0.0,
+      "ripple": 0
+    },
+    "app.infrastructure": {
+      "Ca": 0,
+      "Ce": 2,
+      "I": 1.0,
+      "ripple": 6
+    },
+    "app.infrastructure.cart_repo": {
+      "Ca": 2,
+      "Ce": 2,
+      "I": 0.5,
+      "ripple": 3
+    },
+    "app.infrastructure.database": {
+      "Ca": 7,
+      "Ce": 1,
+      "I": 0.125,
+      "ripple": 1
+    },
+    "app.infrastructure.item_repo": {
+      "Ca": 5,
+      "Ce": 3,
+      "I": 0.375,
+      "ripple": 3
+    },
+    "app.infrastructure.local_storage_service": {
+      "Ca": 2,
+      "Ce": 2,
+      "I": 0.5,
+      "ripple": 2
+    },
+    "app.infrastructure.purchase_repo": {
+      "Ca": 2,
+      "Ce": 3,
+      "I": 0.6,
+      "ripple": 3
+    },
+    "app.infrastructure.review_repo": {
+      "Ca": 1,
+      "Ce": 3,
+      "I": 0.75,
+      "ripple": 3
+    },
+    "app.infrastructure.user_repo": {
+      "Ca": 1,
+      "Ce": 3,
+      "I": 0.75,
+      "ripple": 4
+    },
+    "app.interfaces": {
+      "Ca": 0,
+      "Ce": 0,
+      "I": 0.0,
+      "ripple": 0
+    },
+    "app.interfaces.controllers": {
+      "Ca": 0,
+      "Ce": 0,
+      "I": 0.0,
+      "ripple": 0
+    },
+    "app.interfaces.controllers.cart_controller": {
+      "Ca": 1,
+      "Ce": 3,
+      "I": 0.75,
+      "ripple": 7
+    },
+    "app.interfaces.controllers.items_controller": {
+      "Ca": 1,
+      "Ce": 4,
+      "I": 0.8,
+      "ripple": 4
+    },
+    "app.interfaces.controllers.purchases_controller": {
+      "Ca": 1,
+      "Ce": 3,
+      "I": 0.75,
+      "ripple": 3
+    },
+    "app.interfaces.controllers.reviews_controller": {
+      "Ca": 1,
+      "Ce": 2,
+      "I": 0.667,
+      "ripple": 3
+    },
+    "app.interfaces.controllers.users_controller": {
+      "Ca": 1,
+      "Ce": 3,
+      "I": 0.75,
+      "ripple": 3
+    },
+    "app.interfaces.routes": {
+      "Ca": 0,
+      "Ce": 5,
+      "I": 1.0,
+      "ripple": 28
+    },
+    "app.interfaces.routes.cart": {
+      "Ca": 2,
+      "Ce": 5,
+      "I": 0.714,
+      "ripple": 9
+    },
+    "app.interfaces.routes.listings": {
+      "Ca": 2,
+      "Ce": 5,
+      "I": 0.714,
+      "ripple": 10
+    },
+    "app.interfaces.routes.purchase": {
+      "Ca": 2,
+      "Ce": 5,
+      "I": 0.714,
+      "ripple": 9
+    },
+    "app.interfaces.routes.review": {
+      "Ca": 2,
+      "Ce": 4,
+      "I": 0.667,
+      "ripple": 8
+    },
+    "app.interfaces.routes.user": {
+      "Ca": 2,
+      "Ce": 4,
+      "I": 0.667,
+      "ripple": 9
+    },
+    "app.interfaces.schemas": {
+      "Ca": 4,
+      "Ce": 0,
+      "I": 0.0,
+      "ripple": 0
+    },
+    "app.main": {
+      "Ca": 0,
+      "Ce": 6,
+      "I": 1.0,
+      "ripple": 28
+    }
+  },
+  "generatedAt": "2025-12-07T18:07:46.690000+00:00"
+}

@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: build output
+dist/
+build/
+
+#notes
+my_notes.md
+
+#venv
+fit_env
+
+#vscode
+.vscode
+
+#pycache
+*.pyc
+
+#metrics
+metric_track.py
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore build and cache directories
+*.pytest_cache/
+.cache/
+
+
