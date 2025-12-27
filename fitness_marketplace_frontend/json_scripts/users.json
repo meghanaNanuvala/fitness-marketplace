@@ -1,0 +1,8 @@
+{
+  "userId": "U1001",
+  "name": "Meghana",
+  "email": "meghana@example.com",
+  "username": "meghana",
+  "password": "<bcrypt-hash>",
+  "createdAt": { "$date": "2025-09-20T18:00:00Z" }
+}

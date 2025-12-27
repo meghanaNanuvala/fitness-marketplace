@@ -1,0 +1,13 @@
+# pip freeze > requirements.txt
+
+# Purpose: Export everything currently installed in your venv into a file.
+
+# It doesn’t install anything, it just writes out a snapshot like:
+
+fastapi
+uvicorn[standard]
+motor
+python-dotenv
+python-multipart
+bcrypt
+pydantic-settings

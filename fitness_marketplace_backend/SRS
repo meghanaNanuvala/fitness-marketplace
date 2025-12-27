@@ -1,0 +1,91 @@
+🛍️ Marketplace Web Application SRS
+This document serves as the Software Requirements Specification (SRS) for a web application designed to facilitate the buying, selling, and reviewing of items between users.
+
+Table of Contents:
+Introduction  
+1.1 Purpose  
+1.2 Scope  
+1.3 Target Audience  
+1.4 Acronyms  
+Functional Requirements    
+2.1 User Management  
+2.2 Selling Functionality  
+2.3Buying Functionality  
+2.4 Review Functionality  
+Non-Functional Requirements    
+3.1 Security   
+3.2 Usability  
+3.3 Technology Stack  
+Data Model Summary  
+
+
+1. Introduction
+1.1 Purpose
+The purpose of this document is to define the functional and non-functional requirements for the Marketplace Web Application. This application will provide a platform for users to list items for sale, browse and purchase items, and provide feedback via reviews.
+
+1.2 Scope
+The application will be a web-based platform accessible via standard desktop and mobile browsers. Key features include user registration, item listing management, search and filtering, secure payment processing integration, and a product review/rating system.
+
+1.3 Target Audience
+Sellers: Individuals or small businesses looking to list products for sale.
+Buyers: Users looking to browse, search, and purchase items.
+Administrators: Personnel responsible for site maintenance, user moderation, and dispute resolution.
+
+1.4 Acronyms
+P1-P5: Priority in the increasing order. P1 has highest priority and P5 has least priority.
+
+2. Functional Requirements
+These define the specific actions the system must perform.
+
+2.1 User Management (Authentication & Authorization)
+FR-UM-01-	User Registration:	Users must be able to sign up using an email address, username, and password. (P1)
+FR-UM-02-	User Login/Logout:	Users must be able to securely log in and out of the application. (P1)
+FR-UM-03-	Profile Management:	Users must be able to view and edit their profile details (e.g., name, shipping address, payment methods). (P1)
+
+2.2 Selling Functionaity (Seller)
+FR-SELL-01-	Create Item Listing:	Sellers must be able to create a new product listing, including title, description, price, category, inventory quantity, and at least one image. (P1)
+FR-SELL-02-	Manage Listings:	Sellers must be able to view, edit, and delete their active and inactive item listings. (P2)
+FR-SELL-03-	Order Notification:	Sellers must receive a notification (email/in-app) when one of their items is purchased. (P5)
+FR-SELL-04-	Order Status Update:	Sellers must be able to update the status of an order (e.g., "Pending," "Shipped," "Delivered"). (P3)
+
+2.3 Buying Functionality (Buyer)
+FR-BUY-01-	Item Search:	Buyers must be able to search for items by keywords in the title and description. (P1)
+FR-BUY-02-	Item Filtering:	Buyers must be able to filter search results by criteria such as category, price range, and seller rating. (P2)
+FR-BUY-03-	Shopping Cart:	Buyers must be able to add and remove items from a persistent shopping cart. (P4)
+FR-BUY-04-	Checkout Process:	Buyers must be able to complete a purchase, providing shipping details and selecting a saved payment method. (P1)
+FR-BUY-05-	Order History:	Buyers must be able to view a history of all their past and current orders, including tracking information if provided by the seller. (P3)
+
+2.4 Review Functionality
+FR-REV-01-	Post Product Review:	Buyers must be able to leave a review (text comment) and a rating (1-5 stars) for an item they have purchased. (P1)
+FR-REV-02-	View Reviews:	All users must be able to view the aggregated rating and individual reviews on an item's product page. (P1)
+FR-REV-03-	Seller Rating:	The system must calculate and display an average rating for each seller based on the reviews received on their sold items. (P3)
+
+3. Non-Functional Requirements
+These define the quality attributes of the system.
+
+3.1 Security
+NFR-SEC-01: All user passwords must be securely hashed. (P2)
+
+3.2 Usability
+NFR-US-01: The application must be fully responsive, providing a consistent and functional experience across desktop, tablet, and mobile devices. (P4)
+NFR-US-02: All user flows (e.g., registration, checkout, listing creation) must be intuitive and require a maximum of three major steps. (P3)
+NFR-US-03: All errors and system messages must be clear, non-technical, and provide actionable feedback to the user. (P2)
+
+3.3 Technology Stack
+Frontend:	React
+Backend:	FastAPI
+Database:	MongoDB
+Hosting:	(not hosted)
+
+4. Data Model Summary
+The primary entities in the system will include:
+User: Contains roles (Buyer/Seller/Admin), contact details, and authentication information.
+Product: Contains details like name, description, price, quantity, category, and a foreign key to the Seller (User).
+Order: Contains the list of products purchased, total price, shipping address, and foreign keys to the Buyer and Seller.
+Review: Contains the rating, text comment, and foreign keys to the Buyer and the Product.
+Category: Hierarchical list of categories for product classification.
+
+Glossary:
+Database: Storage system where data is stored.
+React: A framework to create user interface applications.
+FastAPI: A framework to create backend or logic of an application. It helps in exposing endpoints that frontend will use. 

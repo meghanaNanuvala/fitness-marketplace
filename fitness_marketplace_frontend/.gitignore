@@ -1,0 +1,67 @@
+# Apply it
+
+# If you already committed some of these (like node_modules or .venv):
+
+# git rm -r --cached node_modules .venv venv uploads
+# git add .gitignore
+# git commit -m "chore: add unified .gitignore for frontend and backend"
+
+# -------------------------
+# Node (React frontend)
+# -------------------------
+node_modules/
+dist/
+build/
+.cache/
+.next/
+out/
+
+# -------------------------
+# Python (FastAPI backend)
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# -------------------------
+# Environment & config
+# -------------------------
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
+
+# -------------------------
+# IDE/editor settings
+# -------------------------
+.vscode/
+.idea/
+*.swp
+
+# -------------------------
+# OS-specific files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Project specific
+# -------------------------
+uploads/        # local image uploads (dev only)

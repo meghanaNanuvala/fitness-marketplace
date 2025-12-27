@@ -1,0 +1,29 @@
+[
+    {
+    "productId": "P2001",
+    "productName": "Adjustable Dumbbell Set (5–50 lbs)",
+    "category": "Equipment",
+    "photos": ["https://example.com/dumbbell1.jpg"],
+    "priceCents": 19900,
+    "qty": 2,
+    "description": "Space-saving adjustable dumbbells, great for home workouts.",
+    "status": "active",
+    "isSeller": true,
+    "ownerUserId": "U1001",
+    "createdAt": { "$date": "2025-09-20T18:10:00Z" }
+    },
+    {
+    "productId": "P2002",
+    "productName": "Yoga Mat – Non Slip 6mm",
+    "category": "Yoga",
+    "photos": ["https://example.com/yogamat.jpg"],
+    "priceCents": 3500,
+    "qty": 5,
+    "description": "Eco-friendly, extra-thick mat for yoga, pilates, and stretching.",
+    "status": "active",
+    "isSeller": true,
+    "ownerUserId": "U1002",
+    "createdAt": { "$date": "2025-09-20T18:15:00Z" }
+    }
+]
+
