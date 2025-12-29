@@ -146,7 +146,7 @@ Reports generated in: `tools/coupling/metrics/`
 
 
 
-## 📊 Our Metric-Driven Approach
+## 📊 Metric-Driven Approach
 
 ### Requirements Metrics
 
@@ -277,7 +277,7 @@ Coverage % = (Tests Passed / Total Tests) × 100
 
 3. **Few-Shot Prompting**: Multiple examples for pattern learning
 
-### Our Approach with ChatGPT
+### Approach with ChatGPT
 
 **Before defining metrics:**
 1. Prepared comprehensive Requirements Document
@@ -332,7 +332,7 @@ dot -Tsvg tools/coupling/metrics/coupling.frontend.dot \
 
 ## 📈 Key Learnings
 
-### What We Discovered
+### What I Discovered
 
 1. **Early Detection**
    - Measuring coupling, flexibility, and reliability made design trade-offs visible early
@@ -441,7 +441,6 @@ When contributing to this project:
 - 🎯 Reliability: > 85%
 - 🎯 Sufficiency: > 90%
 - 🎯 Cycles Count: 0
-
 
 
 ## 📚 Documentation
